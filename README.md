@@ -2,9 +2,9 @@
 
 ## Overview
 
-According to [the census by R&A](https://www.randa.org/~/media/Files/DownloadsAndPublications/Golf-around-the-world-2017.ashx),  there are more than 30,000 golf courses all over the world.  They are good targets for automatic object detection reaserach due to their specific shape, world-wide distibution and common size.  **MUSIC** for GC (**G**olf  **C**ourse) is the dataset to support such a global survey by using satellite imagery.
+According to [the census by R&A](https://www.randa.org/~/media/Files/DownloadsAndPublications/Golf-around-the-world-2017.ashx),  there are more than 30,000 golf courses all over the world.  They are good targets for research of automatic object detection due to their specific shape, world-wide distibution and common size.  **MUSIC** for GC (**G**olf  **C**ourse) is the dataset to support the global survey of golf courses based on satellite imagery.
 
-First, we have picked up all golf courses in Japan imaged by Landsat-8 between 200* and 200*. Their profile are represented as polygons and the longitude/latitude of each point is stored in KML files. Next, [Landsat-8](https://landsat.usgs.gov/landsat-8) multiband images of these target areas were cropped into a 16 × 16 grid covering a 480 × 480 meter area. These patch images are classified as “positives” if the golf course cover more than 20% of the total areas, while patches with no golf course are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
+First, we have picked up all golf courses in Japan imaged by Landsat-8 between 200? and 200?. Their profile are represented as polygons and the longitude/latitude of each point is stored in KML files. Next, [Landsat-8](https://landsat.usgs.gov/landsat-8) multiband images of these target areas were cropped into a 16 × 16 grids, which corresponds to a 480 × 480 meter area. These patch images are classified as “positives” if the golf course cover more than 20% of the total areas, while patches with no golf course are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
 
 ![fig:MUSIC4GC image example](https://github.com/gistairc/MUSIC4GC/blob/master/fig0.png "Original polygons in a Landsat-8 scene")  
 
