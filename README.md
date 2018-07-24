@@ -4,12 +4,12 @@
 
 According to [the census by R&A](https://www.randa.org/~/media/Files/DownloadsAndPublications/Golf-around-the-world-2017.ashx),  there are more than 30,000 golf courses all over the world.  They are good targets for research of automatic object detection due to their specific shape, world-wide distibution and common size.  **MUSIC** for GC (**G**olf  **C**ourse) is the dataset to support the global survey of golf courses based on satellite imagery.
 
-First, we have picked up all golf courses in Japan imaged by Landsat-8 between 200? and 200?. Their profile are represented as polygons and the longitude/latitude of each point is stored in KML files. Next, [Landsat-8](https://landsat.usgs.gov/landsat-8) multiband images of these target areas were cropped into a 16 × 16 grids, which corresponds to a 480 × 480 meter area. These patch images are classified as “positives” if the golf course cover more than 20% of the total areas, while patches with no golf course are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
+First, we have created several KML files for polygons which cover all the golf courses in Japan. Next, [Landsat-8](https://landsat.usgs.gov/landsat-8) multiband images of these target areas were cropped into a 16 × 16 grids. These patch images are classified as “positives” if the golf course cover more than 20% of the total areas, while patches with no golf course are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
 
 ![fig:MUSIC4GC image example](https://github.com/gistairc/MUSIC4GC/blob/master/fig0.png "Original polygons in a Landsat-8 scene")  
 
 
-You can download the **MUSIC** for GC dataset from [here ]( ????? ) (??GB).  More detailed exaplanations can be found in the following papers.
+You can download the **MUSIC** for GC dataset from [here]( ????? ) (??GB).  More detailed exaplanations can be found in the following papers.
 
 [1] *Uehara, K., H. Sakanashi, H. Nosato, M. Murakawa, H. Miyamoto, and R. Nakamura, “Object Detection of Satellite Images Using Multi-Channel Higher-order Local Autocorrelation”, IEEE International Conference on Systems, Man and Cybernetics
 doi:10.1109/SMC.2017.8122799*
