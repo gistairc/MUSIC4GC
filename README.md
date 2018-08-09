@@ -9,7 +9,7 @@ First, we have created several KML files for polygons which cover all the golf c
 ![fig:MUSIC4GC image example](https://github.com/gistairc/MUSIC4GC/blob/master/fig0.png "Original polygons in a Landsat-8 scene")  
 
 
-You can download the **MUSIC** for GC dataset from [here]( ????? ) (??GB).  More detailed exaplanations can be found in the following papers.
+You can download the **MUSIC** for GC dataset from [here](http://data.airc.aist.go.jp/MUSIC4GC/MUSIC4GC.zip) (375MB).  More detailed exaplanations can be found in the following papers.
 
 [1] *Uehara, K., H. Sakanashi, H. Nosato, M. Murakawa, H. Miyamoto, and R. Nakamura, “Object Detection of Satellite Images Using Multi-Channel Higher-order Local Autocorrelation”, IEEE International Conference on Systems, Man and Cybernetics
 doi:10.1109/SMC.2017.8122799*
@@ -28,18 +28,40 @@ doi:10.1109/SMC.2017.8122799*
 
 #### How to extract 
 
-The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf.zip) (4.6GB) .  
+The dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4GC/MUSIC4GC.zip) (375MB) .  
 Or type the following in the terminal.  
 
 ```
-$ wget http://data.airc.aist.go.jp/MUSIC4GCdataset/????????????
-$ unzip ????????????
+$ wget http://data.airc.aist.go.jp/MUSIC4GC/MUSIC4GC.zip
+$ unzip MUSIC4GC.zip
 ```
 
 The directory configuration in the unzipped folder:  
 ```
-ここも入れてください。	
-``
+./MUSIC4GC/
+train/
+　　positive/
+	LC81070302016189LGN00_point(66,232).tif
+         LC81070302016189LGN00_point(67,232).tif ...
+    negative/
+         LC81070302016189LGN00_point(3,99).tif
+         LC81070302016189LGN00_point(3,102).tif ...
+val/
+　　positive/
+         LC81070302016189LGN00_point(69,233).tif
+         LC81070302016189LGN00_point(188,158).tif ...
+    negative/
+         LC81070302016189LGN00_point(3,93).tif
+         LC81070302016189LGN00_point(7,118).tif ...
+test/
+　　positive/
+         LC81070302016189LGN00_point(73,236).tif
+         LC81070302016189LGN00_point(73,237).tif ...
+　　negative/
+         LC81070302016189LGN00_point(3,101).tif
+         LC81070302016189LGN00_point(4,103).tif ...
+	
+```
 
 ## Acknowledgement
 This dataset and source code are based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).  
