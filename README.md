@@ -12,10 +12,10 @@ First, we have created several KML files for polygons which cover all the golf c
 You can download the **MUSIC** for GC dataset from [here](http://data.airc.aist.go.jp/MUSIC4GC/MUSIC4GC.zip) (375MB).  More detailed exaplanations can be found in the following papers.
 
 [1] *Uehara, K., H. Sakanashi, H. Nosato, M. Murakawa, H. Miyamoto, and R. Nakamura, “Object Detection of Satellite Images Using Multi-Channel Higher-order Local Autocorrelation”, IEEE International Conference on Systems, Man and Cybernetics
-doi:10.1109/SMC.2017.8122799*
+doi:10.1109/SMC.2017.8122799* [paper](http://arxiv.org/abs/1707.09099)
 
 
-[2] *Miyamoto, H, K. Uehara, M. Murakawa, H. Sakanashi, H. Nosato, T. Kouyama and R.Nakamura,  "OBJECT DETECTION IN SATELLITE IMAGERY USING 2-STEP CONVOLUTIONAL NEURAL NETWORKS", [International Geoscience and Remote Sensing Symposium 2018] (https://www.igarss2018.org/Papers/viewpapers.asp?papernum=1645)*
+[2] *Miyamoto, H, K. Uehara, M. Murakawa, H. Sakanashi, H. Nosato, T. Kouyama and R.Nakamura,  "OBJECT DETECTION IN SATELLITE IMAGERY USING 2-STEP CONVOLUTIONAL NEURAL NETWORKS", [International Geoscience and Remote Sensing Symposium 2018] (https://www.igarss2018.org/Papers/viewpapers.asp?papernum=1645)* [paper](https://arxiv.org/abs/1808.02996)
          
 
 
