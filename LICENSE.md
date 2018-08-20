@@ -1,5 +1,5 @@
 <p align="center"> MUSIC for GC dataset Terms of Use </p>
-<p align="right"> AUgust 9 , 2018 </p>
+<p align="right"> August 9 , 2018 </p>
 
 The users of the MUSIC for GC dataset must abide by the following Terms of Use: 
 
@@ -10,7 +10,7 @@ The users of the MUSIC for GC dataset must abide by the following Terms of Use:
 
 2. By downloading the dataset, the users are regarded as having agreed to the Terms of Use.
 
-3. The software is provided "as is", without warranty of any kind, express or implined, including but not limited to the warranties of merchantabilty, fitness for a particular purpose and noninfringement.
+3. The dataset is provided "as is", without warranty of any kind, express or implined, including but not limited to the warranties of merchantabilty, fitness for a particular purpose and noninfringement.
 In no event shall the authors or copyright holders be liable for any claim. damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software. 
 
 MUSIC for GC dataset is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).
