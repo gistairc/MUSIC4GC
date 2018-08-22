@@ -23,7 +23,7 @@ doi:10.1109/SMC.2017.8122799* ([paper](http://arxiv.org/abs/1707.09099))
 
 ## Download  
 
-**IMPORTANT** -- Please read the [Terms of Use](https://github.com/gistairc/MUSIC4GC/blob/master/LICENSE.md) before downloading the MUSIC4P3 dataset.
+**IMPORTANT** -- Please read the [Terms of Use](https://github.com/gistairc/MUSIC4GC/blob/master/LICENSE.md) before downloading the MUSIC4GC dataset.
 
 
 #### How to extract 
